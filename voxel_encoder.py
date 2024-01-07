@@ -25,10 +25,6 @@ def voxelization(point_cloud, voxel_size):
             "average_reflectivity": np.mean(points[:, 3]),
         }
         voxel_features[key] = feature
-        import ipdb
-
-        ipdb.set_trace()
-
     return voxel_features
 
 
